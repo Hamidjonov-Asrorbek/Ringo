@@ -1,0 +1,39 @@
+.main {
+    &-container {
+        padding-top: 140px;
+        padding-bottom: 140px;
+        background: #fff;
+        color: #282B22;
+    }
+    &__title {
+        font-size: 46px;
+        font-weight: 600;
+        line-height: 58px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 80px;
+
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        border-left: 1px solid #bebebc;
+        padding-left: 30px;
+    }
+    &__count {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        margin-bottom: 60px;
+    }
+    &__item__title {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+}
