@@ -423,6 +423,21 @@ a {
        column-gap: 40px;
   align-items: center;
 }
+.nav__item {
+  position: relative;
+}
+.nav__item::before {
+  content: "";
+  position: absolute;
+  background: #282B22;
+  width: 0%;
+  height: 4px;
+  top: 30px;
+  transition: all 0.4s linear;
+}
+.nav__item:hover::before {
+  width: 100%;
+}
 .nav__link {
   font-weight: 500;
   line-height: 16px;
