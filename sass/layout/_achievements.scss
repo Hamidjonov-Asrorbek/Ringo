@@ -1,0 +1,80 @@
+.achievements {
+    &-container {
+        padding-bottom: 139px;
+    }
+    &-img{
+        position: absolute;
+        left: 144px;
+        top: 37%;
+        transform: scale(1);
+        transition: all 0.3s linear;
+    }
+    &-img:hover{
+        transform: scale(1.1);
+    }
+    &__title {
+        color: rgb(40, 43, 34);
+        font-size: 46px;
+        font-weight: 600;
+        line-height: 125%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 80px;
+    }
+    &__cards {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        padding-top: 50px;
+    }
+    &__list {
+        border-bottom: 1px solid rgb(183, 183, 182);
+        display: flex;
+    }
+    &__item-left {
+        width: 100%;
+        max-width: 50%;
+    }
+    &__list__count {
+        color: rgb(180, 181, 176);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 100%;
+        text-align: left;
+        transition: all 0.3s linear;
+        cursor: pointer;
+    }
+    &__list__count:hover{
+        color: #AE7B3C;
+    }
+    &__item-right {
+        width: 100%;
+        max-width: 50%;
+        padding-left: 41px;
+        padding-bottom: 50px;
+        border-left: 1px solid rgb(183, 183, 182);
+    }
+    &__list__title {
+        color: rgb(40, 43, 34);
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 10px;
+        transition: all 0.3s linear;
+        cursor: pointer;
+    }
+    &__list__title:hover{
+        color: #AE7B3C;
+    }
+    &__list__desc {
+        color: rgb(40, 43, 34);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 135%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}

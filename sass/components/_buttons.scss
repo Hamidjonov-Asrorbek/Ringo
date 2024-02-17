@@ -1,0 +1,26 @@
+.btn{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: center;
+    background: #AE7B3C;
+    box-shadow: 0px 20px 25px 0px #0000000D;
+    transition: all 0.4s linear;
+}
+.btn:hover{
+    background: #FFFFFF;
+    color: #AE7B3C;
+}
+.hero__btn {
+    padding: 22px 49px 22px 56px;
+}
+.discuss-btn {
+    padding: 22px 56px;
+    margin-bottom: 26px;
+    border: none;
+}
+.gift__btn{
+    padding: 22px 56px;
+}
